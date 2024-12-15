@@ -9,9 +9,9 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 // components
 import Navbar from "./components/Navbar";
 import Home from "./components/Home";
-import About from "./components/About";
-import Pricing from "./components/Pricing";
-import Services from "./components/Services";
+import Coffee from "./components/Coffee";
+import Bakery from "./components/Bakery";
+import Shop from "./components/Shop";
 import Contact from "./components/Contact";
 
 function App() {
@@ -23,9 +23,9 @@ function App() {
       <Routes>
         <Route>
           <Route path="home" element={<Home />} />
-          <Route path="about" element={<About />} />
-          <Route path="pricing" element={<Pricing />} />
-          <Route path="services" element={<Services />} />
+          <Route path="coffee" element={<Coffee />} />
+          <Route path="bakery" element={<Bakery />} />
+          <Route path="shop" element={<Shop />} />
           <Route path="contact" element={<Contact />} />
         </Route>
       </Routes>
