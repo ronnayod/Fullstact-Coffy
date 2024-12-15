@@ -1,9 +1,9 @@
 import React from 'react'
 
-function About() {
+function Coffee() {
   return (
     <div>
-      <h2>About Page</h2>
+      <h2>Coffee Page</h2>
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, neque.
       </p>
@@ -11,4 +11,4 @@ function About() {
   )
 }
 
-export default About
+export default Coffee

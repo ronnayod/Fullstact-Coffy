@@ -1,9 +1,9 @@
 import React from 'react'
 
-function Services() {
+function Shop() {
   return (
     <div>
-      <h2>Services Page</h2>
+      <h2>Shop Page</h2>
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus quam totam exercitationem voluptates blanditiis cupiditate nemo sint eligendi reprehenderit hic.
       </p>
@@ -11,4 +11,4 @@ function Services() {
   )
 }
 
-export default Services
+export default Shop
